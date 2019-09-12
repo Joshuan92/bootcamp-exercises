@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+html{
+    font-size: 18px;
+}
+body{
+    margin: 0px;
+    background-image: url("grid.png");
+    height: 50rem;
+    font-size: 18px;
+}
+.mybox{
+    display: inline;
+    font-size: 12px;
+    background-color: orange;
+    
+    
+}
+
+}
+h1{
+    margin:0px;
+}    
+
+.thingy{
+    width: 5rem;
+    height: 5rem;
+    background-color: forestgreen;
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+    
+}
+.container{
+    height: 10rem;
+    border: 2px solid black;
+    position: relative;
+}
