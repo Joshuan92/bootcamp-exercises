@@ -1,0 +1,81 @@
+html{
+    margin:0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+h1{
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 2rem;
+}
+a:hover{
+    color:blue;
+}
+nav{
+    text-align: center;
+    padding: 0.5rem;
+
+}
+nav a {
+    display: inline;
+    padding: 0 1rem;
+  
+    color: black;
+  
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner{
+    background: #223c88 url('graphics/banner.jpg') center/cover no-repeat;
+    height: 25rem;
+    
+}
+.yellow{
+    color: #FFE964;
+
+}
+.red{
+    color: #FF523D;
+}
+.blue{
+    color: #223C88;
+}
+.mission{
+   background-color: #FFE964; 
+   padding: 2rem;
+
+}
+
+.about_us{
+    background-color:#FFFFFF; 
+    padding: 2rem;
+ 
+ }
+
+ .about_us h1{
+     text-align: left;
+ }
+
+ .our_team{
+    background-color:#FF523D; 
+    padding: 2rem;
+    
+ 
+ }
+ .our_team h2,p{
+    
+    margin: 1.5rem;
+    
+ 
+ }
+
+
