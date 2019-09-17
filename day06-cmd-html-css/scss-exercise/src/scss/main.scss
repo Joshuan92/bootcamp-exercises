@@ -1,6 +1,11 @@
+
+// variables
 @import 'common/variables/colors.scss';
+
+//main
 @import 'common/document.scss';
 @import 'common/navigation.scss';
+@import 'pages/homepage.scss';
 
 * {
     box-sizing: border-box;

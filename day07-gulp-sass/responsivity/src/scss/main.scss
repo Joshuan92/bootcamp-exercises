@@ -1,0 +1,28 @@
+body{
+
+    text-align: center;
+
+    
+}
+
+@media screen and (max-width: 800px)
+{
+    body{
+    font-size: 0.5rem;
+    background-color: red;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    body{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.25rem;
+        background-color: purple;
+    }
+}
+
+
+
+
