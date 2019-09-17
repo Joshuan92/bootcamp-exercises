@@ -1,0 +1,17 @@
+@import '../common/variables/colors.scss';
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    position: relative;
+    min-width: 100px;
+
+    div{
+        padding: 1rem 0.75rem;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+}

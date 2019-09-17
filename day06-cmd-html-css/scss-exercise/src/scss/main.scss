@@ -1,0 +1,21 @@
+@import 'common/variables/colors.scss';
+@import 'common/document.scss';
+@import 'common/navigation.scss';
+
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+

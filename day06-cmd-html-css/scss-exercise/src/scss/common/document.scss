@@ -1,0 +1,45 @@
+header{
+    background-image: url(/img/welcome.jpg) cover/no-repeat;
+
+    background-repeat:no-repeat;
+    background-position: center center;
+    .header{
+        padding: 10rem;
+        text-align: center;
+        
+        h1,
+        h2{
+            padding: 0.5rem;
+            margin: 0;
+            color: white;
+        }  
+        h1{
+            font-size: 3.5rem;
+        } 
+        h2{
+            font-size: 2rem;
+        } 
+
+      
+    }
+    
+
+
+}
+.plot{
+    te
+
+    .subplot{
+        display: flex;
+        flex-direction: row;
+        img{
+            max-width: 200px;
+        }
+
+}
+
+}
+
+.width{
+    max-width: 800px;
+}
