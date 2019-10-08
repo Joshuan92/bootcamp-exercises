@@ -1,0 +1,13 @@
+.term {
+  margin-bottom: 1rem;
+  background-color: coral;
+  padding: 1rem;
+  color: white;
+
+  &__name {
+    font-weight: bold;
+  }
+  &__definition {
+    color: black;
+  }
+}
