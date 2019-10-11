@@ -1,0 +1,15 @@
+.question {
+  margin-bottom: 1rem;
+  background-color: red;
+  padding: 1rem;
+  
+  &__line{
+    color: white;
+  }
+
+  &__user{
+    color: pink;
+    font-weight: bold;
+  }
+
+}

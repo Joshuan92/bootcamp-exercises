@@ -1,0 +1,14 @@
+.answer {
+  margin-bottom: 1rem;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+
+  &__user {
+    font-weight: bold;
+  }
+
+  &__text {
+    font-weight: normal;
+  }
+}
