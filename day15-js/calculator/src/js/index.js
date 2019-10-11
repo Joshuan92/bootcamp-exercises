@@ -26,8 +26,13 @@ const showResult = () => {
 
 const handlePlusClick = () => {
   userInput();
-  result += number;
-  op = '+';
+  if (op !== 0) {
+    result += number;
+    showResult();
+  } else {
+    op = '+';
+    result += number;
+  }
 };
 
 const plus = () => {
@@ -71,17 +76,16 @@ const divide = () => {
 
 const handleClear = () => {
   result = 0;
+  op = 0;
   document.querySelector('#calc__input').value = 0;
   showResult();
+  const history = document.querySelector('#calc__history');
+  history.textContent = '0';
 };
 
 const clear = () => {
   const btnClear = document.querySelector('#btn-clear');
   btnClear.addEventListener('click', handleClear);
-};
-
-const numPad = () => {
-  const btn = document.querySelector('#btn-{$}');
 };
 
 const equals = () => {
