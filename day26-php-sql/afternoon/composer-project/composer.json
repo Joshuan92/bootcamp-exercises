@@ -1,0 +1,12 @@
+{
+    "name": "hanzlm/martin",
+    "authors": [
+        {
+            "name": "Martin Hanzlik",
+            "email": "hanzlik.martin.92@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
