@@ -16,3 +16,30 @@ Route::get('/', function () {
 });
 
 Route::get('/api', 'ApiController@index');
+Route::get('/api/search/people', 'ApiController@search_people');
+Route::get('/api/search/cast_crew', 'ApiController@cast_and_crew');
+
+Route::get('/api/movies', 'MovieController@movies');
+Route::get('/api/movies/list', 'MovieController@index');
+Route::get('/api/movies/cast-crew', 'MovieController@cast_and_crew');
+Route::get('/api/movies/show', 'MovieController@show');
+
+Route::get('/api/review', 'Api\ReviewController@index');
+Route::post('/api/review', 'Api\ReviewController@store');
+
+
+Route::get('/api/rating', 'Api\RatingController@index');
+Route::post('/api/rating', 'Api\RatingController@store');
+Route::put('/api/rating', 'Api\RatingController@update');
+Route::delete('/api/rating', 'Api\RatingController@destroy');
+
+Route::get('/api/form', 'ApiController@form');
+Route::post('/api/form','ApiController@handleForm' );
+
+// Route::resource('/api/review', 'ReviewController');
+// Route::resource('/api/rating', 'RatingController');
+
+Route::get('/api/top-rated', 'TopRatedController@topRated');
+
+Route::get('/api/movie-of-the-week', 'TopRatedController@movieOfTheWeek');
+
