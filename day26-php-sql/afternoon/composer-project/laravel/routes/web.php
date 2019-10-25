@@ -19,10 +19,10 @@ Route::get('/api', 'ApiController@index');
 Route::get('/api/search/people', 'ApiController@search_people');
 Route::get('/api/search/cast_crew', 'ApiController@cast_and_crew');
 
-Route::get('/api/movies', 'MovieController@movies');
-Route::get('/api/movies/list', 'MovieController@index');
-Route::get('/api/movies/cast-crew', 'MovieController@cast_and_crew');
-Route::get('/api/movies/show', 'MovieController@show');
+// Route::get('/api/movies', 'MovieController@movies');
+// Route::get('/api/movies/list', 'MovieController@index');
+// Route::get('/api/movies/cast-crew', 'MovieController@cast_and_crew');
+// Route::get('/api/movies/show', 'MovieController@show');
 
 Route::get('/api/review', 'Api\ReviewController@index');
 Route::post('/api/review', 'Api\ReviewController@store');
@@ -42,4 +42,17 @@ Route::post('/api/form','ApiController@handleForm' );
 Route::get('/api/top-rated', 'TopRatedController@topRated');
 
 Route::get('/api/movie-of-the-week', 'TopRatedController@movieOfTheWeek');
+
+//day34 with slavo
+Route::get('/movies', 'NewMovieController@index');
+Route::get('/movies/{id}', 'NewMovieController@show');
+
+Route::get('/movies/{movie}/reviews', 'ReviewController@index');
+
+Route::get('/movies/{movie}/reviews/create', 'ReviewController@create');
+Route::post('/movies/{movie}/reviews', 'ReviewController@store');
+
+Route::get('/sort', 'SortingController@show');
+
+
 
