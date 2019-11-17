@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    background-color: rgb(34, 39, 34);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: rgb(224, 174, 174);
+    padding: 50px;
+    margin: 10px;
+}
+
+.highlighted{
+    background-color: chartreuse;
+}
+
+.highlighted2{
+    background-color: blue;
+}

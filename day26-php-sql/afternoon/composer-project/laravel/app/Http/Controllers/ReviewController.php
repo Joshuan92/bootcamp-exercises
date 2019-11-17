@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Review;
 use App\Movie;
+use App\Http\Requests\ReviewRequest;
 
 class ReviewController extends Controller
 {
@@ -15,12 +16,18 @@ class ReviewController extends Controller
      */
     public function index($movie_id)
     {
+
+        if(\Gate::denies('admin')) {
+            return 'sorry, you are not an administrator, bummer.';
+        }
+        if(\Gate::allows('admin')) {
+            $movie = Movie::findOrFail($movie_id);
+
+            $reviews = Movie::findOrFail($movie_id)->reviews()->get();
+
+            return view('reviews/index', compact('reviews', 'movie'));
+        }
         
-        $movie = Movie::findOrFail($movie_id);
-
-        $reviews = Movie::findOrFail($movie_id)->reviews()->get();
-
-        return view('reviews/index', compact('reviews', 'movie_id'));
     }
 
     /**
@@ -40,21 +47,10 @@ class ReviewController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store($movie, Request $request)
+    public function store($movie, ReviewRequest $request)
     {
-        $this->validate($request,[
-            'value' => 'required|numeric|min:1|max:10',
-            'text' => 'required|min:10|max:160'
-
-        ],
-        [
-            'value.required' => 'THAT IS COMPLETELY WRONG!',
-            'text.required' => 'THAT IS COMPLETELY, UTTERLY WRONG!'
-
-        ]);
-
         $review = new Review();
-        $review->user_id = rand(1, 10000);
+        $review->user_id = auth()->id();
         $review->movie_id = $movie;
 
         $review->text = $request->input('text');

@@ -13,7 +13,7 @@ class ReviewRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,18 @@ class ReviewRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'value' => 'required|numeric|min:0|max:10',
+            'text' => 'required|min:10|max:160'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            
+            'value.required' => 'THAT IS COMPLETELY WRONG!',
+            'text.required' => 'THAT IS COMPLETELY, UTTERLY WRONG!'
+
         ];
     }
 }

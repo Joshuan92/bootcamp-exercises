@@ -8,7 +8,10 @@
 <p>Rating: {{$movie->rating}}</p>
 <img src="{{$movie->poster_url}}" alt="" style="width: 300px">
 <br>
-<a href="{{action('ReviewController@create', $movie->id)}}">Create new review</a>
+@can('admin')
+    <a href="{{action('ReviewController@create', $movie->id)}}">Create new review</a>
+@endcan
+
 <a href="{{action('NewMovieController@index')}}">Back to the movies</a>
 
 </div>

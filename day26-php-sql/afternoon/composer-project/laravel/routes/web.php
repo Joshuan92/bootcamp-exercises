@@ -49,10 +49,18 @@ Route::get('/movies/{id}', 'NewMovieController@show');
 
 Route::get('/movies/{movie}/reviews', 'ReviewController@index');
 
-Route::get('/movies/{movie}/reviews/create', 'ReviewController@create');
-Route::post('/movies/{movie}/reviews', 'ReviewController@store');
+Route::get('/movies/{movie}/reviews/create', 'ReviewController@create')->middleware('auth');
+Route::post('/movies/{movie}/reviews', 'ReviewController@store')->middleware('auth');
 
 Route::get('/sort', 'SortingController@show');
 
+Route::get('/ruler', 'RulerController@show');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+// exercise on 29.10.2019
+Route::resource('new-person', 'NewPersonController');
 

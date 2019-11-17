@@ -25,3 +25,7 @@ Route::post('/api/review', 'ReviewController@store');
 //day 32 morning workout
 Route::post('/api/movies/favorite/toggle', 'FavoriteMovieController@toggle');
 Route::get('/api/movies/favorite', 'FavoriteMovieController@status');
+
+Route::get('/', 'IndexController@index');
+
+Route::get('/slavo', 'NewMovieController@index');
