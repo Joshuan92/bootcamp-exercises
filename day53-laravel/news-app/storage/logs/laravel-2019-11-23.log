@@ -1,0 +1,1077 @@
+[2019-11-23 11:50:05] local.ERROR: Undefined variable: h2 {"exception":"[object] (ErrorException(code: 0): Undefined variable: h2 at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(43): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 43, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 11:50:22] local.ERROR: Undefined variable: image_url {"exception":"[object] (ErrorException(code: 0): Undefined variable: image_url at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:72)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(72): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 72, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 12:01:24] local.ERROR: Undefined variable: title {"exception":"[object] (ErrorException(code: 0): Undefined variable: title at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:77)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(77): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 77, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 12:04:50] local.ERROR: Call to undefined method DiDom\Element::title() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method DiDom\\Element::title() at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:44)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:11:48] local.ERROR: Call to undefined method DiDom\Element::title() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method DiDom\\Element::title() at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:14:04] local.ERROR: syntax error, unexpected 'if' (T_IF) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'if' (T_IF) at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:44)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\webDevelopme...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('ArticlesSeeder')
+#2 [internal function]: spl_autoload_call('ArticlesSeeder')
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(803): ReflectionClass->__construct('ArticlesSeeder')
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(681): Illuminate\\Container\\Container->build('ArticlesSeeder')
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(629): Illuminate\\Container\\Container->resolve('ArticlesSeeder', Array)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(768): Illuminate\\Container\\Container->make('ArticlesSeeder', Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(76): Illuminate\\Foundation\\Application->make('ArticlesSeeder')
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Console\\Seeds\\SeedCommand->getSeeder()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 12:16:07] local.ERROR: Call to a member function title() on null {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function title() on null at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:16:31] local.ERROR: Call to a member function href() on null {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function href() on null at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:17:31] local.ERROR: Call to a member function toElement() on null {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function toElement() on null at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:18:08] local.ERROR: Call to undefined method DiDom\Element::toElement() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method DiDom\\Element::toElement() at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:19:35] local.ERROR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\webDevelopme...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('ArticlesSeeder')
+#2 [internal function]: spl_autoload_call('ArticlesSeeder')
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(803): ReflectionClass->__construct('ArticlesSeeder')
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(681): Illuminate\\Container\\Container->build('ArticlesSeeder')
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(629): Illuminate\\Container\\Container->resolve('ArticlesSeeder', Array)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(768): Illuminate\\Container\\Container->make('ArticlesSeeder', Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(76): Illuminate\\Foundation\\Application->make('ArticlesSeeder')
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Console\\Seeds\\SeedCommand->getSeeder()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 12:19:48] local.ERROR: Call to a member function first() on string {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function first() on string at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:20:06] local.ERROR: syntax error, unexpected ';', expecting ')' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ')' at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:43)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\webDevelopme...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('ArticlesSeeder')
+#2 [internal function]: spl_autoload_call('ArticlesSeeder')
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(803): ReflectionClass->__construct('ArticlesSeeder')
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(681): Illuminate\\Container\\Container->build('ArticlesSeeder')
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(629): Illuminate\\Container\\Container->resolve('ArticlesSeeder', Array)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(768): Illuminate\\Container\\Container->make('ArticlesSeeder', Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(76): Illuminate\\Foundation\\Application->make('ArticlesSeeder')
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Console\\Seeds\\SeedCommand->getSeeder()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 12:22:30] local.ERROR: Call to a member function find() on string {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function find() on string at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:23:37] local.ERROR: Call to a member function text() on array {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function text() on array at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 12:56:59] local.ERROR: Call to a member function innerHtml() on array {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to a member function innerHtml() on array at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 [internal function]: ArticlesSeeder->run()
+#1 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#10 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-11-23 13:00:17] local.ERROR: Undefined offset: 1 {"exception":"[object] (ErrorException(code: 0): Undefined offset: 1 at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:50)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(50): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined offse...', 'C:\\\\webDevelopme...', 50, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 13:08:09] local.ERROR: Undefined variable: find {"exception":"[object] (ErrorException(code: 0): Undefined variable: find at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(42): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 42, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 13:09:22] local.ERROR: Undefined variable: find {"exception":"[object] (ErrorException(code: 0): Undefined variable: find at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(42): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 42, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2019-11-23 13:09:51] local.ERROR: Undefined variable: find {"exception":"[object] (ErrorException(code: 0): Undefined variable: find at C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php:42)
+[stacktrace]
+#0 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\database\\seeds\\ArticlesSeeder.php(42): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\webDevelopme...', 42, Array)
+#1 [internal function]: ArticlesSeeder->run()
+#2 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#6 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#7 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#8 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#9 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#10 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#11 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#12 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#18 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(934): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\webDevelopment\\Bootcamp\\exercises\\day53-laravel\
+ews-app\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
